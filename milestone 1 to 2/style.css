@@ -9,18 +9,31 @@ body {
 @media (max-width: 767px)  {
     .resume-container {
         flex-direction: column;
-        width: 95%;
+        width: 100%;
     }
 
     .left-section, .right-section {
         width: 100%;
         text-align: center;
         border-right: none;
+        padding:10px;
     }
 
     .profile-picture {
         margin: 20px auto;
+        height: 120px;
+        width:120px;
+
     }
+     h1{
+        font-size: 18px;
+     }
+     h3{
+        font-size: 14px;
+     }
+     ul{
+        font-size: 14px;
+     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -30,6 +43,16 @@ body {
     }
     .left-section, .right-section {
         width: 50%;
+    }
+    .profile-picture{
+        width: 140px;
+        height: 140px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    h3{
+        font-size:15px;
     }
 }
 
