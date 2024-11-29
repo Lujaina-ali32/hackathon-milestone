@@ -16,7 +16,7 @@ body {
         width: 100%;
         text-align: center;
         border-right: none;
-        padding:10px;
+        padding:15px;
     }
 
     .profile-picture {
@@ -26,13 +26,13 @@ body {
 
     }
      h1{
-        font-size: 18px;
+        font-size: 1.5rem;
      }
      h3{
-        font-size: 14px;
+        font-size: 1rem;
      }
      ul{
-        font-size: 14px;
+        font-size: 0.9rem;
      }
 }
 
@@ -43,6 +43,7 @@ body {
     }
     .left-section, .right-section {
         width: 50%;
+        padding:15px;
     }
     .profile-picture{
         width: 140px;
@@ -76,6 +77,16 @@ body {
     text-align: center;
     border-right: 5px solid #39e6da;
 }
+
+button {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+.profile-picture {
+    width: 100px;
+    height: 100px;
+}
+
 
 .profile-picture {
     width: 150px;
